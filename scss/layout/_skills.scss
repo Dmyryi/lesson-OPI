@@ -1,0 +1,41 @@
+
+
+.skills__title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+@media screen and(max-width:767px) {
+    .skills {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and(min-width:768px) {
+    .skills {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and(min-width:1200px) {
+    .skills {
+        max-width: 1600px;
+        margin: 0 auto;
+        padding-top: 94px;
+
+        padding-bottom: 0;
+
+    }
+}
+

@@ -1,0 +1,34 @@
+
+
+@media  screen and(max-width:1199px) {
+    .clients{
+        padding: 60px 0px;
+    }
+    .clients__tittle {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        color: var(--tittle-color);
+        
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and(min-width:1200px) {
+    .clients{
+        max-width: 1600px;
+        margin: 0 auto;
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    .clients__tittle {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        color: var(--tittle-color);
+        
+        margin-bottom: 50px;
+    }
+}
